@@ -30,6 +30,14 @@ public class MausTratos implements Serializable {
 		
 		
 		
+		public MausTratos(String endereco, Integer latitude, Integer longitude, String descricao) {
+			super();
+			this.endereco = endereco;
+			this.latitude = latitude;
+			this.longitude = longitude;
+			this.descricao = descricao;
+		}
+
 		public String getStatus() {
 			return status;
 		}
