@@ -21,7 +21,7 @@ public class TestadorConecaoBD {
     	  Adocao sec = new Adocao();
       
       sec.setCastrado(true);
-      sec.setCidade("UOOOL");
+      sec.setCidade("TesteNovaConfiguraçãoPersistencia");
       
       dao.inserir(sec);
       }
