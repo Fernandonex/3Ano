@@ -19,11 +19,6 @@ public class Adocao implements Serializable {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	private static final long serialVersionUID = 1L;
-
-	public Adocao() {
-		super();
-	}
-
 	/* Animal */
 	private String nomeAnimal;
 	private String descricaoAnimal;
@@ -49,7 +44,31 @@ public class Adocao implements Serializable {
 	private String status;
 	
 	
-	
+	public Adocao(String nomeAnimal, String descricaoAnimal, String especie, String sexo, String portePeso,
+			Integer idade, String pelagem, String raca, Boolean castrado, String linkVideo, String nomeAnunciante,
+			String estado, String cidade, String telefone, String email, String observacao) {
+		
+		this.nomeAnimal = nomeAnimal;
+		this.descricaoAnimal = descricaoAnimal;
+		this.especie = especie;
+		this.sexo = sexo;
+		this.portePeso = portePeso;
+		this.idade = idade;
+		this.pelagem = pelagem;
+		this.raca = raca;
+		this.castrado = castrado;
+		this.linkVideo = linkVideo;
+		this.nomeAnunciante = nomeAnunciante;
+		this.estado = estado;
+		this.cidade = cidade;
+		this.telefone = telefone;
+		this.email = email;
+		this.observacao = observacao;
+	}
+	public Adocao() {
+		super();
+	}   
+
 	public String getStatus() {
 		return status;
 	}

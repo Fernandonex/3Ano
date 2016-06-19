@@ -18,12 +18,12 @@ public class TestadorConecaoBD {
         DAOGenerico dao = new DAOGenerico();
 
       for (int i=0; i<1; i++){
-    	  Adocao sec = new Adocao();
+//    	  Adocao sec = new Adocao();
       
-      sec.setCastrado(true);
-      sec.setCidade("TesteNovaConfiguraçãoPersistencia");
-      
-      dao.inserir(sec);
+//      sec.setCastrado(true);
+//      sec.setCidade("TesteNovaConfiguraçãoPersistencia");
+//      
+//      dao.inserir(sec);
       }
 
 
